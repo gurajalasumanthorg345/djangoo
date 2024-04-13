@@ -1,0 +1,17 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+    <h1>User Counts</h1>
+    <p>Total User: {{ user_count }}</p>
+
+    <h1>File Counts</h1>
+    <p>Total PDF files: {{ pdf_count }}</p>
+    <p>Total DOCX files: {{ docx_count }}</p>
+    <p>Total XLSX files: {{ xlsx_count }}</p>
+</body>
+</html>
+{% endblock content %}
